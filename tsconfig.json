@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "esnext" ,
+        "module": "commonjs",
+        "jsx": "react" ,
+        "declaration": true,
+        "sourceMap": true,                     
+        "outDir": "./dest",          
+        "noEmit": true,
+        "strict": true ,
+        "noImplicitAny": true, 
+        "moduleResolution": "node",         
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+    },
+    "include": ["./src/**/*"]
+}
